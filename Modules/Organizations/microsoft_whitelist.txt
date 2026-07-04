@@ -130,3 +130,26 @@
 ! SWIFTKEY
 ! ════════════════════════════════════════════
 @@||*.touchtype-fluency.com^
+
+! ════════════════════════════════════════════
+! MICROSOFT CERTIFICATE / TRUST
+! (not covered by *.microsoft.com wildcard)
+! ════════════════════════════════════════════
+@@||*.symcb.com^
+@@||*.symcd.com^
+@@||*.verisign.com^
+@@||*.verisign.net^
+@@||ctldl.windowsupdate.com^
+
+! ════════════════════════════════════════════
+! XBOX GAME STREAMING / CLOUD
+! ════════════════════════════════════════════
+@@||*.gssv-play-prod.xboxlive.com^
+@@||*.xhome.gssv-play-prod.xboxlive.com^
+
+! ════════════════════════════════════════════
+! MICROSOFT FAMILY SAFETY
+! ════════════════════════════════════════════
+@@||family.microsoft.com^
+@@||familysafety.microsoft.com^
+@@||account.microsoft.com^
