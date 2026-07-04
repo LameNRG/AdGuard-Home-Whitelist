@@ -84,6 +84,12 @@
 @@||*.msftncsi.com^
 
 ! ════════════════════════════════════════════
+! MICROSOFT CLARITY (required for Family Safety)
+! ════════════════════════════════════════════
+@@||*.clarity.ms^
+@@||clarity.ms^
+
+! ════════════════════════════════════════════
 ! XBOX / GAMING
 ! ════════════════════════════════════════════
 @@||*.xbox.com^
@@ -99,7 +105,6 @@
 @@||*.visualstudio.com^
 @@||*.vsassets.io^
 @@||*.gallerycdn.vsassets.io^
-@@||*.vsassets.io^
 @@||*.vssps.visualstudio.com^
 @@||visualstudio.com^
 
