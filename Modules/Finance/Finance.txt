@@ -1,0 +1,57 @@
+! Title: AdGuard Home Whitelist - Financial Institutions
+! Description: Allowlist for Fidelity, Chase, Square, and Charles Schwab
+
+! ---------------------------------------------------------------
+! Fidelity Investments
+! ---------------------------------------------------------------
+@@||fidelity.com^
+@@||fmr.com^
+@@||netbenefits.com^
+@@||fidelity-cdn.com^
+@@||fidelityinvestments.com^
+
+! ---------------------------------------------------------------
+! Chase / JPMorgan Chase
+! ---------------------------------------------------------------
+@@||chase.com^
+@@||jpmorganchase.com^
+@@||chasecdn.com^
+@@||chaseonline.chase.com^
+
+! ---------------------------------------------------------------
+! Square (Block, Inc.)
+! ---------------------------------------------------------------
+@@||squareup.com^
+@@||square.com^
+@@||squarecdn.com^
+@@||cash.app^
+@@||block.xyz^
+
+! ---------------------------------------------------------------
+! Charles Schwab
+! ---------------------------------------------------------------
+@@||schwab.com^
+@@||schwabplan.com^
+@@||aws.schwab.com^
+@@||schwabassetmanagement.com^
+
+! ---------------------------------------------------------------
+! Common third-party vendors used across banking/fintech sites
+! (fraud detection, device fingerprinting, chat, analytics).
+! These are shared infra, NOT bank-specific -- verify per-site via
+! AdGuard Home Query Log before assuming a given bank uses one.
+! Blocking these is the most common cause of "login just spins"
+! or "2FA never sends" on financial sites.
+! ---------------------------------------------------------------
+@@||online-metrix.net^
+@@||forter.com^
+@@||maxmind.com^
+@@||sift.com^
+@@||siftscience.com^
+@@||akam.net^
+@@||akamaized.net^
+@@||assets.adobedtm.com^
+@@||demdex.net^
+@@||cookielaw.org^
+@@||salesforceliveagent.com^
+@@||force.com^
